@@ -5,6 +5,13 @@
       length: 32
       special: true
 
+# Authelia
+- name: authelia.dex
+  data:
+    - key: client_secret
+      length: 32
+      special: true
+
 # Dex
 - name: dex.grafana
   data:
